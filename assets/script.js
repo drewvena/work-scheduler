@@ -32,8 +32,10 @@ $(document).ready(function () {
                 $(this).removeClass("present");
                 $(this).removeClass("past");
                 $(this).addClass("future");
-
             }
         })
     }
-};
+
+
+    timeTracker();
+})
